@@ -3,4 +3,10 @@
 }
 
 .App-header {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.App-footer {
+  font-size: small;
 }
