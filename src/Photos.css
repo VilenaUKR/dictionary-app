@@ -2,6 +2,15 @@
   display: flex;
 }
 
-.Photos a:hover {
-  box-shadow: 10px 10px 20px rgb(10 10 10 / 100%);
+.Photos img {
+  border-radius: 7px;
+  border: 1px solid #866568;
+   box-shadow: 3px 3px 5px rgb(103, 57, 63);
+  margin: 10px;
+  transition: all ease-in-out 150ms;
+}
+
+.Photos img:hover {
+  box-shadow: 5px 5px 10px rgb(103, 57, 63);
+  border: 2px solid #866568;
 }

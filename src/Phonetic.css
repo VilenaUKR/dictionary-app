@@ -1,3 +1,6 @@
-.Phonetic {
-  margin: 20px 0;
+.phonetic .phoneticText {
+  margin-top: 20px;
+  font-size: 18px;
+  letter-spacing:2px;
+  color: #693D40;
 }

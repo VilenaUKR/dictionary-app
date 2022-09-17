@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(237, 198, 237);
+  background: url(dictionary.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .App {
@@ -10,9 +12,15 @@ body {
 
 .App-header {
   font-size: 45px;
-  margin-top: 10px;
+  margin: 20px 0;
+  color: #563234;
+  font-weight: bold;
 }
 
 .App-footer {
-  font-size: small;
+  font-size: 16px;
+  color: #ebd0d2;
+  font-weight: 600;
+  text-shadow: 2px 1px 1px #65393c;
+  margin: 10px;
 }

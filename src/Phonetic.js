@@ -14,7 +14,7 @@ export default function Phonetic(props) {
             controls={true}
           />
         </div>
-        <div>{props.phonetic.text}</div>
+        <div className="phoneticText">{props.phonetic.text}</div>
       </div>
     );
   } else {
