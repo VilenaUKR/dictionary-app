@@ -9,11 +9,27 @@ function App() {
       <div className="container">
         <header className="App-header">Dictionary app</header>
         <main className="App-main">
-          <Dictionary defaultKeyword="happiness"/>
+          <Dictionary defaultKeyword="smile" />
         </main>
         <footer className="App-footer">
-          This project was created by Vilena Martirosova and is open-sourced on
-          GitHub
+          This project was coded by{" "}
+          <a
+            className="Portfolio-site-link"
+            href="https://vilena-martirosova.netlify.app/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vilena Martirosova
+          </a>{" "}
+          and is{" "}
+          <a
+            className="GitHub-link"
+            href="https://github.com/VilenaUKR/dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>

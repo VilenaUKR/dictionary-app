@@ -13,14 +13,32 @@ body {
 .App-header {
   font-size: 45px;
   margin: 20px 0;
-  color: #563234;
+  color: #5f2f41e7;
   font-weight: bold;
 }
 
-.App-footer {
+.App-footer,
+.App-footer .Portfolio-site-link,
+.App-footer .GitHub-link {
   font-size: 16px;
   color: #ebd0d2;
   font-weight: 600;
   text-shadow: 2px 1px 1px #65393c;
   margin: 10px;
+  text-decoration: none;
+}
+
+.App-footer .Portfolio-site-link {
+  font-weight: 700;
+}
+
+.App-footer .GitHub-link {
+  color: #65393c;
+  text-shadow: 2px 1px 1px #ebd0d2;
+  font-weight: 700;
+}
+
+.App-footer .Portfolio-site-link:hover,
+.App-footer .GitHub-link:hover {
+  font-weight: 900;
 }

@@ -1,6 +1,8 @@
 .phonetic .phoneticText {
-  margin-top: 20px;
+  margin-top: 7px;
   font-size: 18px;
-  letter-spacing:2px;
-  color: #693D40;
+  letter-spacing: 1px;
+
+  color: #6a4923;
+  font-weight: 500;
 }
