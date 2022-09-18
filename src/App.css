@@ -8,13 +8,18 @@ body {
   text-align: center;
   max-width: 960px;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-header {
-  font-size: 45px;
-  margin: 20px 0;
+  display: inline;
+}
+.App-header h1 {
+  font-size: 55px;
+  margin: 0 0 20px;
   color: #5f2f41e7;
   font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(78, 47, 51);
 }
 
 .App-footer,
@@ -41,4 +46,16 @@ body {
 .App-footer .Portfolio-site-link:hover,
 .App-footer .GitHub-link:hover {
   font-weight: 900;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 1px solid #7b4050;
+  box-shadow: 2px 2px 12px rgb(78, 47, 51);
+}
+
+img:hover {
+  box-shadow: 5px 5px 15px rgb(103, 57, 63);
+  border: 2px solid #866568;
 }

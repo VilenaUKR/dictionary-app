@@ -2,12 +2,15 @@ import React from "react";
 import "./App.css";
 import Dictionary from "./Dictionary";
 import "bootstrap/dist/css/bootstrap.css";
+import Logo from "./Logo";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary app</header>
+        <header className="App-header">
+          <Logo /> <h1>Dictionary</h1>
+        </header>
         <main className="App-main">
           <Dictionary defaultKeyword="victory" />
         </main>
