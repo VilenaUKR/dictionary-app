@@ -1,12 +1,13 @@
 .Photos .row {
   display: flex;
+  margin: 0 auto;
 }
 
 .Photos img {
   border-radius: 7px;
   border: 1px solid #866568;
-   box-shadow: 3px 3px 5px rgb(103, 57, 63);
-  margin: 10px;
+  box-shadow: 3px 3px 5px rgb(103, 57, 63);
+  margin-top: 10px;
   transition: all ease-in-out 150ms;
 }
 

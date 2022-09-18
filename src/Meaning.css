@@ -17,3 +17,9 @@
   font-size: 17px;
   font-style: italic;
 }
+
+@media (max-width: 393px) {
+  .Meaning h3 {
+    font-size: 25px;
+  }
+}

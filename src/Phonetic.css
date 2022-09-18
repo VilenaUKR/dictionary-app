@@ -5,3 +5,9 @@
   color: #6a4923;
   font-weight: 500;
 }
+
+@media (width: 280px) {
+  .audio-player {
+    width: 200px;
+  }
+}

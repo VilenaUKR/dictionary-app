@@ -19,7 +19,7 @@ body {
   margin: 0 0 20px;
   color: #5f2f41e7;
   font-weight: bold;
-  text-shadow: 2px 2px 5px rgb(78, 47, 51);
+  text-shadow: 1px 1px 5px rgb(78, 47, 51);
 }
 
 .App-footer,
@@ -39,7 +39,7 @@ body {
 
 .App-footer .GitHub-link {
   color: #65393c;
-  text-shadow: 2px 1px 1px #ebd0d2;
+  text-shadow: 1px 1px 1px #ebd0d2;
   font-weight: 700;
 }
 
@@ -58,4 +58,17 @@ img {
 img:hover {
   box-shadow: 5px 5px 15px rgb(103, 57, 63);
   border: 2px solid #866568;
+}
+
+@media (max-width: 393px) {
+  .App-header h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+  }
+
+  .App-footer,
+  .App-footer .Portfolio-site-link,
+  .App-footer .GitHub-link {
+    font-size: 12px;
+  }
 }

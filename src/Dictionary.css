@@ -44,3 +44,30 @@
   font-style: italic;
   letter-spacing: 0.5px;
 }
+
+@media (width: 280px) {
+  .App-header h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+  }
+}
+
+@media (max-width: 393px) {
+  .App-header h1 {
+    font-size: 45px;
+    margin: 0 0 10px;
+  }
+
+  .Dictionary h1 {
+    font-size: 25px;
+  }
+
+  .Dictionary input {
+    font-size: 17px;
+  }
+
+  .Dictionary .hint {
+    margin-top: -8px;
+    font-size: 15px;
+  }
+}
